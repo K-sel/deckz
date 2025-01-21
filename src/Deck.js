@@ -15,13 +15,9 @@ class Deck {
   createFullDeck() {
     for (let suit of this.#suits) {
       for (let value of this.#values) {
-        let card = new Card(value, suit);
-        console.log(card);
-        this.#cards.push(card);
+        this.#cards.push(new Card(value, suit));
       }
     }
-
-    console.log(this.#cards);
   }
 
   _shuffle() {
