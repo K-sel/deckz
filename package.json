@@ -1,0 +1,21 @@
+{
+  "name": "challenge-16",
+  "version": "1.0.0",
+  "description": "deck generator and shuffler",
+  "main": "app.js",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "K-sel",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "vite": "^6.0.10"
+  }
+}
