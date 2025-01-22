@@ -21,7 +21,7 @@ class Deck {
   }
 
   _shuffle() {
-    shuffle(this.#cards);
+    this.#cards = shuffle(this.#cards);
   }
 
   displayCards() {
