@@ -1,6 +1,5 @@
 import { shuffle } from "lodash-es";
 import Card from "./Card";
-// import _shuffle from "./node_modules/lodash-es/shuffle.js";
 
 class Deck {
   #cards = [];
